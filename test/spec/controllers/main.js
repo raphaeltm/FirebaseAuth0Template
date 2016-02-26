@@ -21,8 +21,4 @@ describe('Controller: MainCtrl', function () {
     expect(typeof MainCtrl.awesomeThings).toBe('undefined');
   });
 
-  it('should awesomeThings should be an array', function () {
-    expect(MainCtrl.awesomeThings.constructor).toEqual(Array);
-  });
-
 });

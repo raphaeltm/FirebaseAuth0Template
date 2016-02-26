@@ -8,5 +8,6 @@
  * Controller of the auth0FirebaseTemplateApp
  */
 angular.module('auth0FirebaseTemplateApp')
-    .controller('MainCtrl', function () {
+    .controller('MainCtrl', function ($controller, $rootScope) {
+
     });
