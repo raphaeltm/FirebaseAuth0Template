@@ -43,6 +43,7 @@ angular.module('auth0FirebaseTemplateApp')
             }, function () {
                 fb.$resolved = true;
             });
-            return fb
+            //return fb
+            return [];
         };
     });
