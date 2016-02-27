@@ -19,8 +19,8 @@ var FAapp = angular
 
 FAapp.config(function (authProvider, jwtInterceptorProvider, $httpProvider) {
     authProvider.init({
-        'domain': 'robinb.auth0.com',
-        'clientID': '4mGCE2umzaB6P4emBH7O5SQ9XvV6cTOW'
+        'domain': 'YOUR AUTH0 DOMAIN HERE',
+        'clientID': 'YOUR AUTH0 CLIENT ID HERE'
     });
 
     // We're annotating this function so that the `store` is injected correctly when this file is minified

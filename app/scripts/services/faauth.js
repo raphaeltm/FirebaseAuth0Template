@@ -92,5 +92,14 @@ angular.module('auth0FirebaseTemplateApp')
             }
         };
 
+        /**
+         * Is it authed.
+         * @returns {boolean}
+         */
+        self.isAuthed = function () {
+            return !!self.authToken;
+        };
+
+
 
     });
